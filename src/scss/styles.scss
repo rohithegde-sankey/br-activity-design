@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+$roboto-font: 'Roboto Slab', serif;
+
+body {
+    font-family: $roboto-font;
+}
+
+small {
+    font-weight: 600;
+}

@@ -1,0 +1,29 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+
+$text: #0F172A;
+$text-link: #2563EB;
+$element-background: #EA580C;
+$text-alternate: #475569;
+$secondary-background: #F1F5F9;
+
+/* existing variable */
+$theme-colors: (
+    primary:            $text,
+    primary-emphasis:   $element-background,
+    secondary:          $text-link,
+    secondary-emphasis: $secondary-background,
+    success:            $green,
+    info:               $text-alternate,
+    warning:            $yellow,
+    danger:             $red,
+    light:              $gray-100,
+    dark:               $gray-900,
+
+    primary-dark: $yellow
+);
+
+/* finally, import Bootstrap to set the changes! */
+@import "bootstrap/scss/bootstrap";
